@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6a040f95d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="Background2.mp4" type="video/mp4">
+        </video>
+
+        <nav>
+            <img src="Game_Developer_Resume_Website_in_Black_and_White_Simple_and_Minimal_Style-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Video Editor/Graphic Designer</p>
+            <br>
+            <h1>Hi, I'm <span>Andrew Noelle</span><br>From Philippines</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="User.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Greetings, I’m an Creative and
+                    skilled Video Editor and Graphic Desinger
+                    with 3 years and a half of
+                    experience creating compelling
+                    and engaging video content and
+                    photo editing for various clients. <br> <br>Proficient in Adobe Photoshop,
+                    Canva, and Filmora. Seeking
+                    freelance video editor projects
+                    to enhance my portfolio and
+                    provide top-quality video
+                    editing services to clients</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Adobe Photoshop<br></span>Blending graphics and text, Basic masking, Creating shapes and vector graphics,
+                                 Smart Objects, Channels, Selection tool, Editing and manipulating photos, brightness and contrast feature manipulates the lightness and darkness of the image.</li>
+                            <li><span>Filmora<br></span>Creating High-Quality Video, Film editing, Multimedia artists, Self-motivation, Collaborated with administrators and school teachers to ensure a positive and immersive learning experience for all students, 
+                                Used a variety of video editing software to trim videos to match the average student's attention span.</li>
+                            <li><span>Canva<br></span>Worked on product brochures, social media banners, and email templates using Canva's design tools.
+                                Designed an email toolkit and style guide, resulting in time savings of 5+ hours per week.
+                                Utilized Canva for visually compelling social media ad campaigns, leading to increased user engagement and click-through rates.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Video Editor<br></span>Received 100% positive client feedback and Collaborated with administrators and school teachers to ensure a positive and immersive learning experience for all students.</li>
+                            <li><span>Graphic Designer<br></span>Creative graphic designer with 3+ years of experience in branding, logo design, and marketing materials. Proficient in Adobe Creative Suite, including Photoshop, Illustrator, and Canva. Passionate about translating ideas into visually compelling designs..</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>Social Media Content, Short Form Videos, <br>Long Form Videos, TikTok Content, Youtube Videos, <br>Reels and Facebook Content and Vlogs</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Graphic Designing</h2>
+                <p>Thumbnail, Banner, Background Designer <br>Facebook ads, Instagram ads <br>Youtube Thumbnail, Logo and Birthday</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>  
+<!------------portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <video autoplay loop muted plays-inline>
+                    <source src="y2mate.is - Gaming Laptop vs PC-YJuZEm5Q964-1080pp-1707539843.mp4" type="video/mp4">
+                </video>
+                <div class="layer">
+                    <h3>Video Editing</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <video autoplay loop muted plays-inline>
+                    <source src="y2mate.is - Create an energy drink motion graphic product Ad in Canva tutorial-bvhxP_dcJw4-720p-1707540216.mp4" type="video/mp4">
+                </video>
+                <div class="layer">
+                    <h3>Graphic Designing/ Photo Editing</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <video autoplay loop muted plays-inline>
+                    <source src="y2mate.is - TIME FREEZE - Vn Video editor - Tutorial-9jrK5hWrp8k-720p-1707801075.mp4" type="video/mp4">
+                </video>
+                <div class="layer">
+                    <h3>Other Work</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+        
+    </div>
+</div>
+<!-------------------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> andrewpamilaran20@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 63+ 9530492267</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100071462004792"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="CV Drew.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="hidden" name="access_key" value="9c11e4ab-fb35-4fd4-a493-84ff6b31ca80">
+                    <input type="text" name="Name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="Email" placeholder="Your Email" class="contact-inputs" required> 
+                    <textarea name="Message" rows="6" placeholder="Your Message" class="contact-inputs"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Andrew Noelle by using HTML and CSS.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwmzGQ0zLx-EGt-6qK1s3guUP-J9fWBo1pUpHvF9AVUvqhJ8z42dniWF4qbC3JRGz3HMA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
